@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+input{
+  
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+input:first-of-type
+{
+    height:45px
+}
+
+.calc
+{
+    margin-left: 20px;
+    background-color: #333;
+    width: 450px;
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color:black;
+    width: 150px;
+    margin-left: 35px !important;
+    margin-bottom: 10px !important;
+    transition: 1s;
+}
+
+button:hover
+{
+    background-color:yellow;
+    color:black;
+}
